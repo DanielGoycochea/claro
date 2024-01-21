@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--main-background-color);
+  padding: 15px 0;
+  border-bottom: 5px solid var(--header-border);
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .header{
+    padding: 10px;
+  }
+}
