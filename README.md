@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto Olimpiadas Invernales
 
-## Getting Started
+Este proyecto es una aplicación web que proporciona información sobre las Olimpiadas Invernales.
 
-First, run the development server:
+## Comenzando 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Pre-requisitos 📋
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Necesitarás tener instalado Node.js ^18.19.0 y npm en tu máquina. Puedes descargar Node.js desde [aquí](https://nodejs.org/es/download/) y npm se instalará automáticamente con Node.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Instalación 🔧
 
-## Learn More
+1. Clona el repositorio en tu máquina local utilizando `https://github.com/DanielGoycochea/claro.git`.
 
-To learn more about Next.js, take a look at the following resources:
+2. Navega hasta la carpeta del proyecto con `cd claro`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instala las dependencias del proyecto con `npm install`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Inicia el servidor de desarrollo con `npm run dev`.
 
-## Deploy on Vercel
+El proyecto ahora debería estar corriendo en `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Despliegue 📦
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para desplegar el proyecto en producción, ejecuta `npm run build`. Esto creará una versión optimizada del proyecto en la carpeta `build`.
+
+## Construido con 🛠️
+
+* [Next.js](https://nextjs.org//) - Next.js es un framework de React para construir aplicaciones web.
+
+## Autores ✒️
+
+* **Daniel Goycochea** -[DanielGoycochea](https://github.com/DanielGoycochea/)
+
