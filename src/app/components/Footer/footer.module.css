@@ -1,0 +1,35 @@
+.footer {
+  padding: 30px 0;
+  border-top: 5px solid var(--footer-border);
+}
+
+.footer__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  
+}
+
+.footer__contact {
+  font-size: .75rem;
+}
+
+.footer__contact a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .footer__navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
