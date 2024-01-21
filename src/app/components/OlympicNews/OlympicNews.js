@@ -1,5 +1,5 @@
 import Cards from '../Cards/Cards'
-import styles from './OlympicNews.module.css'
+import styles from './olympicNews.module.css'
 import { news } from '../../constants/newsConstants'
 
 export default function OlympicNews() {
