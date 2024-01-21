@@ -1,0 +1,22 @@
+.timer {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--timer-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.timer__number {
+  font-size: 1.8rem;
+  text-shadow: 4px 3px 4px var(--main-text-shadow);
+}
+
+.timer__text {
+  font-size: .87rem;
+  text-shadow: 4px 3px 4px var(--main-text-shadow);
+}
