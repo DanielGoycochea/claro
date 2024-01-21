@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Timer from '../Timer/Timer'
 import styles from './countdown.module.css'
-import { calculateTimeLeft } from '../../dist/utils'
+import { calculateTimeLeft } from '../../utils/utils'
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
