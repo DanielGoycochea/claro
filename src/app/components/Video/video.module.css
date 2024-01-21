@@ -5,6 +5,15 @@
 }
 
 .video__iframe {
-  width: 367;
-  height: 350;
+  aspect-ratio: 16 / 9;
+  width: 637px;
+  height: 350px;
+}
+
+@media (max-width: 700px) {
+  .video__iframe {
+    aspect-ratio: 16 / 9;
+    width: 320px;
+    height: 275px;
+  }
 }

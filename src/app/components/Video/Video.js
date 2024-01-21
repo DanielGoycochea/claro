@@ -10,8 +10,7 @@ export default function Video() {
   return (
     <div className={styles.video}>
       <iframe
-        width="637"
-        height="350"
+        className={styles['video__iframe']}
         src={video.url}
         title="YouTube video player"
         frameBorder="0"
