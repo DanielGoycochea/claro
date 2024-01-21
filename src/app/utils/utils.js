@@ -18,17 +18,11 @@ export const calculateTimeLeft = () => {
 
   const days = Math.floor(
     timeDifference /
-      (milliSecondsInSeconds *
-        secondsInMinute *
-        minutesInHour *
-        hoursInDay)
+      (milliSecondsInSeconds * secondsInMinute * minutesInHour * hoursInDay)
   )
   const hours = Math.floor(
     (timeDifference %
-      (milliSecondsInSeconds *
-        secondsInMinute *
-        minutesInHour *
-        hoursInDay)) /
+      (milliSecondsInSeconds * secondsInMinute * minutesInHour * hoursInDay)) /
       (milliSecondsInSeconds * secondsInMinute * minutesInHour)
   )
   const minutes = Math.floor(

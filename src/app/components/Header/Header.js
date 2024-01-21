@@ -9,13 +9,13 @@ export default function Header() {
           width={96}
           height={41}
           src="/img/logo-sochi-color.png"
-          alt="Logo"
+          alt="Logo soshi"
         />
         <Image
           width={96}
           height={41}
           src="/img/logo-claro-sports.png"
-          alt="Logo"
+          alt="Logo claro"
         />
       </nav>
     </header>

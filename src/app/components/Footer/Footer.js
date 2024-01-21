@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from './footer.module.css'
-import { social } from '../../constants/socialConstants';
+import { social } from '../../constants/socialConstants'
 
 export default function Footer() {
   return (
